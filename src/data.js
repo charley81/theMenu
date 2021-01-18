@@ -2,7 +2,7 @@ const menu = [
   {
     id: 1,
     title: 'Bacon Plate',
-    price: '11.99',
+    price: 11.99,
     category: 'breakfast',
     img: './images/breakfast1.jpg',
     desc:
@@ -11,7 +11,7 @@ const menu = [
   {
     id: 2,
     title: 'Noodle Salad',
-    price: '14.99',
+    price: 14.99,
     category: 'lunch',
     img: './images/lunch1.jpg',
     desc:
@@ -20,7 +20,7 @@ const menu = [
   {
     id: 3,
     title: 'Ribeye Steak',
-    price: '24.99',
+    price: 24.99,
     category: 'dinner',
     img: './images/dinner1.jpg',
     desc:
@@ -29,7 +29,7 @@ const menu = [
   {
     id: 4,
     title: 'French Toast',
-    price: '9.99',
+    price: 9.99,
     category: 'breakfast',
     img: './images/breakfast2.jpg',
     desc:
@@ -38,7 +38,7 @@ const menu = [
   {
     id: 5,
     title: 'Cheesy Soup',
-    price: '11.99',
+    price: 11.99,
     category: 'lunch',
     img: './images/lunch2.jpg',
     desc:
@@ -47,7 +47,7 @@ const menu = [
   {
     id: 6,
     title: 'Pasta La Ham',
-    price: '14.99',
+    price: 14.99,
     category: 'dinner',
     img: './images/dinner2.jpg',
     desc:
@@ -56,7 +56,7 @@ const menu = [
   {
     id: 7,
     title: 'Egg & Bacon',
-    price: '7.99',
+    price: 7.99,
     category: 'breakfast',
     img: './images/breakfast3.jpg',
     desc:
@@ -65,7 +65,7 @@ const menu = [
   {
     id: 8,
     title: 'Meatball Salad',
-    price: '12.99',
+    price: 12.99,
     category: 'lunch',
     img: './images/lunch3.jpg',
     desc:
@@ -74,7 +74,7 @@ const menu = [
   {
     id: 9,
     title: 'Pizza',
-    price: '16.99',
+    price: 16.99,
     category: 'dinner',
     img: './images/dinner3.jpg',
     desc:

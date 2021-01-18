@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Title = () => {
   return (
@@ -6,7 +6,7 @@ const Title = () => {
       <h1>theMenu</h1>
       <p>Check out our sweet interactive menu</p>
     </header>
-  );
-};
+  )
+}
 
-export default Title;
+export default Title
