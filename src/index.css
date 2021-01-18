@@ -3,6 +3,7 @@
 :root {
   --font-family: 'Inconsolata', monospace;
   --color-primary: rgb(255, 255, 218);
+  --color-secondary: rgb(165, 61, 42);
   --color-dark: #333;
   --color-light: #fff;
   --color-med: #ddd;
@@ -70,6 +71,10 @@ header {
   padding-bottom: 1rem;
 }
 
+.item-header .item-info h4 {
+  color: var(--color-secondary);
+}
+
 .btn-container {
   margin: 2rem 0;
   text-align: center;
@@ -78,7 +83,7 @@ header {
 .btn-container button {
   background: transparent;
   border: none;
-  color: brown;
+  color: var(--color-secondary);
   margin: 0 1rem;
   font-size: 1.1rem;
   cursor: pointer;
