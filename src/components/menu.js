@@ -5,7 +5,7 @@ const Menu = ({ menu }) => {
   return (
     <div className="menu-container">
       {menu.map(item => (
-        <MenuItem {...item} />
+        <MenuItem key={item.id} {...item} />
       ))}
     </div>
   )

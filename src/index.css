@@ -5,6 +5,7 @@
   --color-primary: rgb(255, 255, 218);
   --color-dark: #333;
   --color-light: #fff;
+  --color-med: #ddd;
   --border-radius: 3px;
 }
 
@@ -43,4 +44,27 @@ header {
   background: var(--color-light);
   padding: 1rem;
   border-radius: var(--border-radius);
+  box-shadow: 5px 3px 13px -3px rgba(0, 0, 0, 0.71);
+  transition: all 0.3s ease;
+}
+
+.menu-item p {
+  margin-top: 1rem;
+}
+
+.menu-item:hover {
+  box-shadow: none;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+}
+
+.item-header .item-info {
+  margin-left: 1rem;
+  text-align: left;
+  border-bottom: 1px dotted var(--color-med);
+  width: 100%;
+  padding-bottom: 1rem;
 }
