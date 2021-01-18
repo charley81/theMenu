@@ -8,6 +8,7 @@ const menuCategories = ['all', ...new Set(data.map(item => item.category))]
 
 function App() {
   const [menu, setMenu] = useState(data)
+  /* eslint-disable */
   const [categories, setCategories] = useState(menuCategories)
 
   const filterItem = category => {
